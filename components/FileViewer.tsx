@@ -1,5 +1,5 @@
+import { FileContext } from '@/pages/context/FileContext';
 import React, { useContext } from 'react';
-import { FileContext } from '../context/FileContext';
 
 const FileViewer = () => {
   const { file } = useContext(FileContext);
